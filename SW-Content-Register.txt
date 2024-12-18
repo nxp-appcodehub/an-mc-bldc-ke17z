@@ -1,0 +1,20 @@
+NXP Software Content Register
+
+Package:                   an-mc-bldc-ke17z
+Version:                   1.0
+Outgoing License:          NXP LA_OPT_Online Code Hosting NXP_Software_License
+License File:              LICENSE.txt
+Description and comments:  This application demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on KE17Z256 and KE17Z512 MCU. 
+Release Location:          https://github.com/nxp-appcodehub/an-mc-bldc-ke17z
+Origin:                    NXP (proprietary)
+                           NXP (BSD-3-Clause)
+                           ARM CMSIS 5.8.0(Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0 
+
+rtcesl       	           Name: rtcesl                                      
+                           Version: 4.8 (CM0,CM4,CM7,CM33) + 4.8 (DSC)       
+                           Outgoing License: LA_OPT_Online_Code_Hosting                  
+                           License File: LICENSE.txt                    
+                           Type of content: object code & header files         
+                           Description: NXP Real Time Control Embedded Software Library.                                 
+                           Release Location: https://github.com/nxp-mcuxpresso/rtcesl               
+                           Origin: NXP (Proprietary)

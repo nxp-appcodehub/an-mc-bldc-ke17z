@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-mc-bldc-ke17z" type="app_note" format="projectfile" versionSchema="1.0.0" name="mc bldc ke17z">
+    <display_title>
+        Sensorless BLDC motor control on KE17Z
+    </display_title>
+    <overview>
+        <![CDATA[This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on KE17Z512 and KE17Z256 MCUs. The NXP Freedom board FRDM-MC-LVBLDC
+is used as a hardware platform for the motor
+control reference solution. The hardware-dependent part of the motor control
+software is addressed as well, including a detailed peripheral setup and driver
+description. The FreeMASTER operation is also described in this document.<a name="RTF37303030393a204865616469"></a>]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="kinetis"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-KE17Z"></hw>
+        <hw id="FRDM-KE17Z512"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="pwm"></peripheral>
+        <peripheral name="adc"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="motor_control"></category>
+    </categories>
+</data:item>
